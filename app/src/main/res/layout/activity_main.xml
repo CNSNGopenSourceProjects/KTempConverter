@@ -18,8 +18,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textOff="Fahrenheit -> Celsius"
-        android:textOn="Celsius -> Fahrenheit"
+        android:textOff="@string/fahrenheit2celsius"
+        android:textOn="@string/celsius2fahrenheit"
         android:checked="false"/>
 
     <EditText
@@ -30,7 +30,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:ems="10"
-        android:hint="Temperatura"
+        android:hint="@string/temperatura"
         android:inputType="number|numberSigned|numberDecimal"
         android:text="32"
         android:textColor="@android:color/black"
@@ -59,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Converter a Temperatura"
+        android:text="@string/converter_temperatura"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

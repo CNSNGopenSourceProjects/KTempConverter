@@ -2,6 +2,7 @@ package br.com.conseng.conversordetemperatura
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             val formato = formatoConvertido()
             txtTemperaturaConvertida.text = formato.format(temp)
         } catch (e: NumberFormatException) {
-            txtTemperaturaConvertida.text = "ERRO"
+            txtTemperaturaConvertida.text = getString(R.string.parametro_invalido)
         }
     }
 }

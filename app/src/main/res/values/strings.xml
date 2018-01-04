@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Conversor de Temperatura</string>
+    <string name="fahrenheit2celsius"><![CDATA[Fahrenheit -> Celsius]]></string>
+    <string name="celsius2fahrenheit"><![CDATA[Celsius -> Fahrenheit]]></string>
+    <string name="temperatura">Temperatura a converter</string>
+    <string name="converter_temperatura">Converter a Temperatura</string>
+    <string name="parametro_invalido">ERRO</string>
 </resources>
